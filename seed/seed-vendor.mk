@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/google/seed/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/google/seed/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine \
     vendor/google/seed/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/google/seed/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/google/seed/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -30,6 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/google/seed/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/google/seed/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
+    vendor/google/seed/proprietary/vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc \
+    vendor/google/seed/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
+    vendor/google/seed/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/google/seed/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/google/seed/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/google/seed/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
@@ -43,9 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/google/seed/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
     vendor/google/seed/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/google/seed/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
-    vendor/google/seed/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
-    vendor/google/seed/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/google/seed/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -208,10 +209,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/google/seed/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/google/seed/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/google/seed/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/google/seed/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/seed/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/google/seed/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/seed/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/seed/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/google/seed/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
