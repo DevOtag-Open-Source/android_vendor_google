@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
     vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/google/seed/proprietary/vendor/lib/libcpion.so:system/vendor/lib/libcpion.so \
     vendor/google/seed/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/google/seed/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/google/seed/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
@@ -131,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/google/seed/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/google/seed/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/google/seed/proprietary/vendor/lib/libhdcpsrm.so:system/vendor/lib/libhdcpsrm.so \
     vendor/google/seed/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/google/seed/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/google/seed/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -180,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/google/seed/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/google/seed/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/google/seed/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/google/seed/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/google/seed/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/google/seed/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
